@@ -19,6 +19,8 @@ void setup(){
 
 void draw(){
   background(153, 204, 255);
+  fill(255,255,0);
+  ellipse(230, 230, 150, 150);
   cloud1.display();
   cloud2.display();
   cloud1.move();
